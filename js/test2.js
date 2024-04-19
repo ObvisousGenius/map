@@ -3,12 +3,12 @@ ymaps.ready(init);
 function init() { 
     var map = new ymaps.Map("map-test", {
         center: [54.812810, 29.706244],
-        zoom: 5
+        zoom: 13
 
         }, {
         restrictMapArea: [
-            [54.872002, 29.567122],
-            [54.735432, 29.861278]
+            [54.962934, 29.234343],
+            [54.661641, 30.184161]
         ],
     },
 		
