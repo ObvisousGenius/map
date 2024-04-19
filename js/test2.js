@@ -328,7 +328,7 @@ function init() {
 	   var lebed_shipyn = new ymaps.Placemark([54.815756, 29.715015], {
         hintContent: 'Лебедь шипун',
         balloonContent: `
-		<img src='http://krknigannov.moubokulovo.edusite.ru/images/p20_shaipun1.jpg' alt="Лебедь шипун"
+		<img src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS0LaFh9jtHPkLxPTO-PKSVn3h9lBf9YdLLx5wdAPUlJQ&s' alt="Лебедь шипун"
 		width="350"
 		height="300"/>
 		<h1 class="rarebirds">Лебедь шипун</h1>
