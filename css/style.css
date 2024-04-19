@@ -1,0 +1,187 @@
+ body {
+	 margin: 0;
+	 padding: 0;
+	 font-family: sans-serif;
+	 background: url(https://html5book.ru/wp-content/uploads/2015/07/background39.png);
+ }
+.map {
+	width: 100%;
+	height: 100vh;
+	position: absolute;
+	background-color: #333;
+	z-index: -1;
+}
+
+[class*="copyrights-pane"] {
+	display: none !important;
+}
+
+#MSB {
+	width: 250px;
+	height: 25px;
+    color: #000000;
+    font-family: 'Montserrat', sans-serif;
+	box-sizing: border-box;
+	box-shadow: 1px 0px 5px black;
+	background:	#ffffff;
+	border-radius: 5px;
+	border: 1px solid;
+	cursor: pointer;
+	font-size: 20px;	
+}
+
+#menu {
+	 display: none;
+	 background: rgb(43, 43, 43, .5);
+	 width: 250px;
+	 height: 90vh;
+     font-family: sans-serif;
+	 box-shadow: 1px 1px 5px black;
+}
+
+#menu.active {
+  display: block;
+  margin: 0px;
+}
+
+#menu ul {
+  list-style: none;
+  margin: 0px;
+}
+
+#menu li {
+  margin: 0px;
+  padding: 20px;
+}
+
+.category-button1{
+  text-decoration: none;
+  display: inline-block;
+  width: 140px;
+  height: 45px;
+  line-height: 45px;
+  background: rgb(43, 43, 43, .5);
+  border-radius: 45px;
+  border: solid;
+  margin: 10px 0px;
+  position: sticky;
+  top: 20px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 11px;
+  text-transform: uppercase;
+  text-align: center;
+  letter-spacing: 1px;
+  font-weight: 600;
+  color: black;
+  box-shadow: 0 8px 15px rgba(0, 0, 0, .1);
+  transition: .3s;
+  cursor: pointer;
+}
+
+.category-button2{
+  text-decoration: none;
+  display: inline-block;
+  width: 140px;
+  height: 45px;
+  line-height: 45px;
+  background: rgb(43, 43, 43, .5);
+  border-radius: 45px;
+  border: solid;
+  margin: 10px 0px;
+  position: sticky;
+  top: 20px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 11px;
+  text-transform: uppercase;
+  text-align: center;
+  letter-spacing: 1px;
+  font-weight: 600;
+  color: black;
+  box-shadow: 0 8px 15px rgba(0, 0, 0, .1);
+  transition: .3s;
+  cursor: pointer;
+}
+
+.category-button3{
+  text-decoration: none;
+  display: inline-block;
+  width: 140px;
+  height: 45px;
+  line-height: 45px;
+  background: rgb(43, 43, 43, .5);
+  border-radius: 45px;
+  border: solid;
+  margin: 10px 0px;
+  position: sticky;
+  top: 20px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 11px;
+  text-transform: uppercase;
+  text-align: center;
+  letter-spacing: 1px;
+  font-weight: 600;
+  color: black;
+  box-shadow: 0 8px 15px rgba(0, 0, 0, .1);
+  transition: .3s;
+  cursor: pointer;
+}
+
+ @media (hover: hover) {
+.category-button1:hover {
+  box-shadow: 0 15px 20px rgba(252, 114, 114, .4);
+  color: red;
+  transform: translateY(-7px);
+  text-shadow: .1px 1px 0 black;
+}
+ }
+ 
+  @media (hover: hover) {
+.category-button2:hover {
+  box-shadow: 0 15px 20px rgba(227, 245, 66, .4);
+  color: yellow;
+  text-shadow: .1px 1px 0 black;
+  transform: translateY(-7px);
+}
+ }
+ 
+  @media (hover: hover) {
+.category-button3:hover {
+	  box-shadow: 0 15px 20px rgba(78, 245, 66, .4);
+	  color: lightgreen;
+	  text-shadow: .1px 1px 0 black;  
+	  transform: translateY(-7px);
+}
+ }
+ 
+#menu2 ul {
+	margin-top: 20px;
+	margin-left: 5px;
+	padding: 0px;
+}
+
+#menu2 li {
+	margin-top: 5px;
+	padding: 0px;
+	font-family: sans-serif;
+	font-size: 25px;
+}
+
+#menu2 a {
+	font-family: sans-serif;
+	font-size: 25px;
+}
+
+#menu2 a:hover {
+  color: red;	
+}
+
+.redbirds {
+	color: red;
+	text-shadow: .1px 1px 0 black;
+}
+
+.rarebirds {
+	color: yellow;
+	text-shadow: 2px 2px 4px rgba(0, 0, 0, 1);
+}
+
